@@ -7,10 +7,10 @@
  *
  *Return:pointer to beginning of substring,NULl instead
  */
-char	*_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	char	*scanned = haystack;
-	char	*sub = needle;
+	char *scanned = haystack;
+	char *sub = needle;
 
 	while (*haystack)
 	{
@@ -30,3 +30,4 @@ char	*_strstr(char *haystack, char *needle)
 		haystack = scanned;
 	}
 	return (0);
+}
