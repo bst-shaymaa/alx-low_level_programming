@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-char c;
-c = 'a';
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
-for (c = 'A'; c <= 'Z'; c++)
-{
-putchar(c);
-}
-putchar('\n');
-return (0);
+	char c;
+	c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
