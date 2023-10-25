@@ -47,5 +47,6 @@ int _test(char *s, int l)
 int is_palindrome(char *s)
 {
 	int length = _strlen_p(s);
+
 	return (_test(s, length - 1));
 }
